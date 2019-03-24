@@ -27,7 +27,7 @@ namespace Game___Snake
         {
             Width = 16;
             Height = 16;
-            Speed = 16;
+            Speed = 5;
             Score = 0;
             Points = 100;
             GameOver = false;
