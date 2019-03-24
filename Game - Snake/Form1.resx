@@ -187,7 +187,7 @@
     <value>NoControl</value>
   </data>
   <data name="Score_points.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 10</value>
+    <value>225, 11</value>
   </data>
   <data name="Score_points.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 77</value>
