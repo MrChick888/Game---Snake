@@ -1,6 +1,6 @@
 ﻿namespace Game___Snake
 {
-    partial class Form1
+    partial class Background
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Background));
+            this.SuspendLayout();
+            // 
+            // Background
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackgroundImage = global::Game___Snake.Properties.Resources.Background;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "Background";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
